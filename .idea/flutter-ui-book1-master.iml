@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/flutter_airbnb/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_airbnb/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_airbnb/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_01/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_01/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_01/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_02/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_02/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_02/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_03/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_03/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_03/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_04/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_04/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_04/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_05/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_05/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_05/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_06/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_06/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_06/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_07/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_07/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_kakao/flutter_kakao_07/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_login/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_login/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_login/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_profile/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_profile/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_profile/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_recipe/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_recipe/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_recipe/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_shoppingcart/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_shoppingcart/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_shoppingcart/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_store/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_store/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_store/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
