@@ -37,13 +37,22 @@
   - Expanded()는 Flexfit.tight를 설정한 flexible() 과 같다. 가능한 공간을 최대한 꽉 채우게 강제한다.
   - Spacer()는 빈공간을 꽉 채우기 위한 위젯이다. 빈 공간 전용 Expanded 라고 생각하면 될 듯
 
-- 위젯간 공간을 띄울 때는 보통 SizedBox를 사용한다. SizedBox()는 width와 height를 설정하지 않으면 이를 최소로 한다. (자식 위젯이 없으면 0으로, 있으면 자식 위젯의 크기에 맞춘다.)Container()는 설정 안하면 최대로 채운다.
+- 위젯간 공간을 띄울 때는 보통 SizedBox를 사용한다. SizedBox()는 width와 height를 설정하지 않으면 이를 최소로 한다. (자식 위젯이 없으면 0으로, 있으면 자식 위젯의 크기에 맞춘다.)  Container()는 설정 안하면 최대로 채운다.
+- 상단 메뉴 폰트를 bold로 하였다.
 
 ### 5장 플러터 위젯 - 레시피 앱 만들기
 - flutter_recipe
+- lib 폴더에서, components(위젯 컴포넌트들), pages(페이지들) 폴더를 나눠 파일을 관리하는 것이 좋다.
+- themedata에서 fontfamily를 "PatuaOne"으로 하였다.
+- 상단 여유공간을 위해서라면 Scaffold()에서 Appbar()만 설정해줘도 SafeArea를 쓰지 않아도 된다. 하지만 SafeArea()는 하단 여유공간에도 영향을 끼치기 때문에 왠만하면 쓰는 것이 좋을 듯.
+  참고로 SafeArea()에서 top: / bottom: 인수를 통해 선택적으로 여유공간을 줄 수 있다.
+- appBar같은 것도 그냥 바로 넣기 보다는 깔끔하게 따로 빼는 것이 좋다. 다만 앱바 정도는 다른 컴포넌트와 다르게 그냥 페이지와 같은 파일(같은 클래스)에 둬도 되는 듯. 여기선 같이 둠. 
+- 앱바 elevation을 1만 주어 깔끔한 느낌이 난다.
+- TODO: main.dart, pages까지 봄, components 폴더 봐야한다.
 
 ### 6장 플러터 위젯 - 프로필 앱 만들기
 - flutter_profile
+- 
 
 ### 7장 플러터 위젯 - 로그인 앱 만들기
 - flutter_login
