@@ -159,5 +159,6 @@ class ShoppingCartDetail extends StatelessWidget {
         ),
       ),
     );
+
   }
 }
