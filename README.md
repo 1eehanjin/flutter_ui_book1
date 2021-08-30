@@ -101,6 +101,44 @@
 
 - flutter_airbnb
 
+- components/page1/ ... 이런식으로 어떤 페이지에 컴포넌트가 많이 들어간다면 컴포넌트 폴더를 페이지별로 분류하는 것이 좋다
+  (페이지는 pages/page1.dart  요렇게 별도 저장)
+
+- TODO: flutter devtools 공부
+
+- 컨테이너 최소/최대 크기 설정
+
+  ```dart
+  Container(
+              constraints: BoxConstraints(
+                minWidth: 100
+                maxWidth: 250,
+              ),
+      )
+  ```
+
+- 텍스트스타일 따로 저장하기
+
+  ```dart
+  //styles.dart
+  
+  TextStyle h4({Color mColor = Colors.black}) {
+    return TextStyle(fontSize: 34, fontWeight: FontWeight.bold, color: mColor);
+  }
+  TextStyle body1({Color mColor = Colors.black}) {
+    return TextStyle(fontSize: 16, color: mColor);
+  }
+  
+  //사용
+  child: 
+  Text(
+      "새로운 공간에 머물러 보세요. 살아보기, 출장, 여행 등 다양한 목적에 맞는 숙소를 찾아보세요.",
+      style: h4(mColor: Colors.white),
+  ),
+  ```
+
+- home_page, home_body, home_body_banner  까지 완료함
+
 ### 10장 모두의채팅 UI 만들어보기
 - flutter_kakao
 

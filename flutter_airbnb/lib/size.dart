@@ -12,5 +12,5 @@ const double header_height = 620;
 
 // MediaQuery 클래스로 화면 사이즈를 받을 수 있다.
 double getBodyWidth(BuildContext context) {
-  return MediaQuery.of(context).size.width * 0.7;
+  return MediaQuery.of(context).size.width * 0.9;
 }
