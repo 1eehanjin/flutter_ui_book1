@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shoppingcart/constants.dart';
 
+//안 쓰는 파일인듯?
+
 class ProductSelectorButton extends StatelessWidget {
   final int id;
   final int selectedIconNum;

@@ -105,7 +105,7 @@ class ShoppingCartDetail extends StatelessWidget {
             height: 50,
             decoration: BoxDecoration(
               color: Colors.white,
-              border: Border.all(),
+              border: Border.all(color: Colors.grey),
               shape: BoxShape.circle,
             ),
           ),
