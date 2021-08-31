@@ -169,7 +169,7 @@
   )
   ```
 
-  ![image-20210831203422501](C:\Users\이한진\AppData\Roaming\Typora\typora-user-images\image-20210831203422501.png)
+  ![image-20210831203422501](C:\StudioProjects\flutter_ui_book1\image-20210831203422501.png)
 
 
 
