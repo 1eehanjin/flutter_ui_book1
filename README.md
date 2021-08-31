@@ -137,7 +137,41 @@
   ),
   ```
 
-- home_page, home_body, home_body_banner  까지 완료함
+- 마진에 사용할 여백 사이즈 상수와 MediaQuery.of로 화면 크기에 비례한 사이즈 사용할 때 별도의 파일에 저장하면 좋음
+
+  ```dart
+  // 간격
+  const double gap_xl = 40;
+  const double gap_l = 30;
+  const double gap_m = 20;
+  const double gap_s = 10;
+  const double gap_xs = 5;
+  
+  // 헤더 높이
+  const double header_height = 620;
+  
+  // MediaQuery 클래스로 화면 사이즈를 받을 수 있다.
+  double getBodyWidth(BuildContext context) {
+    return MediaQuery.of(context).size.width * 0.9;
+  }
+  ```
+
+- 보통 margin말고 padding 많이쓰는듯? 여기선 다 padding만 씀
+
+- 큰 화면에 대응하기: 화면 크기가 일정 크기 이상이면 Align 위젯을 이용하여 위젯이 위치하는 비율? 을 바꾼다.
+
+  ```dart
+  Align(
+          // 3. -1.0 부터 1.0 까지 가로 범위에서 0.1의 값은 5%이다.
+          alignment:
+              screenWidth < 520 ? Alignment(0, 0) : Alignment(-0.6, 0), // 변경
+  		...
+  )
+  ```
+
+  ![image-20210831203422501](C:\Users\이한진\AppData\Roaming\Typora\typora-user-images\image-20210831203422501.png)
+
+
 
 ### 10장 모두의채팅 UI 만들어보기
 - flutter_kakao
